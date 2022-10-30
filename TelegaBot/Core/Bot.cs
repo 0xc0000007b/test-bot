@@ -17,7 +17,7 @@ namespace TelegaBot.Core
         
         public void Initialize()
         {
-            ITelegramBotClient _client = new TelegramBotClient("5455966615:AAHvbCAB_jpuH_uG1tDlmeXwhCM71Rvp2TM");
+            ITelegramBotClient _client = new TelegramBotClient("");
             _client.StartReceiving(Update, Error);
             Console.ReadLine();
         }
